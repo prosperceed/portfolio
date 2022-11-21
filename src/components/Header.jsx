@@ -25,8 +25,8 @@ const Header = () => {
           <li
             className={
               splitLocation[1] === ""
-                ? "px-2 list-none hover:bg-black hover:opacity-[0.3] hover:rounded-md py-2"
-                : "px-2 list-none py-2"
+                ? "px-2 mx-2 list-none bg-black opacity-[0.3] rounded-md py-2"
+                : "px-2 list-none py-2 hover:bg-black hover:opacity-[0.3] hover:rounded-md"
             }
           >
             <Link to="/">Home</Link>
@@ -34,8 +34,8 @@ const Header = () => {
           <li
             className={
               splitLocation[1] === "about"
-                ? "px-2 list-none hover:bg-black hover:opacity-[0.3] hover:rounded-md py-2"
-                : "px-2 list-none py-2"
+                ? "px-2 mx-2 list-none bg-black opacity-[0.3] rounded-md py-2"
+                : "px-2 list-none py-2  hover:bg-black hover:opacity-[0.3] rounded-md"
             }
           >
             <Link to="about">About</Link>
@@ -43,8 +43,8 @@ const Header = () => {
           <li
             className={
               splitLocation[1] === "projects"
-                ? "px-2 list-none hover:bg-black hover:opacity-[0.3] hover:rounded-md py-2"
-                : "px-2 list-none py-2"
+                ? "px-2 mx-2 list-none bg-black opacity-[0.3] rounded-md py-2"
+                : "px-2 list-none py-2 hover:bg-black hover:opacity-[0.3] rounded-md"
             }
           >
             <Link to="projects">Projects</Link>
@@ -52,8 +52,8 @@ const Header = () => {
           <li
             className={
               splitLocation[1] === "contact"
-                ? "px-2 list-none hover:bg-black hover:opacity-[0.3] hover:rounded-md py-2"
-                : "px-2 list-none py-2"
+                ? "px-2 mx-2 list-none bg-black opacity-[0.3] rounded-md py-2"
+                : "px-2 list-none py-2 hover:bg-black hover:opacity-[0.3] rounded-md"
             }
           >
             <Link to="contact">Contact</Link>
