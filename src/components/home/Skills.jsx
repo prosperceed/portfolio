@@ -18,35 +18,35 @@ const Skills = () => {
         </div>
 
         <div className="percent flex flex-col gap-y-12">
-          <div className="w-[20rem] bg-gray-200 mt-5 rounded-full dark:bg-gray-700">
+          <div className="w-[16rem] md:w-[20rem] bg-gray-200 mt-5 rounded-full dark:bg-gray-700">
             <div className="bg-blue-600 w-[90%] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full">
               {" "}
               90%
             </div>
           </div>
 
-          <div className="w-[20rem] bg-gray-200 mt-5 rounded-full dark:bg-gray-700">
+          <div className="w-[16rem] md:w-[20rem] bg-gray-200 mt-5 rounded-full dark:bg-gray-700">
             <div className="bg-blue-600 w-[90%] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full">
               {" "}
               45%
             </div>
           </div>
 
-          <div className="w-[20rem] bg-gray-200 mt-5 rounded-full dark:bg-gray-700">
+          <div className="w-[16rem] md:w-[20rem] bg-gray-200 mt-5 rounded-full dark:bg-gray-700">
             <div className="bg-blue-600 w-[90%] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full">
               {" "}
               45%
             </div>
           </div>
 
-          <div className="w-[20rem] bg-gray-200 mt-5 rounded-full dark:bg-gray-700">
+          <div className="w-[16rem] md:w-[20rem] bg-gray-200 mt-5 rounded-full dark:bg-gray-700">
             <div className="bg-blue-600 w-[90%] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full">
               {" "}
               45%
             </div>
           </div>
 
-          <div className="w-[20rem] bg-gray-200 mt-5 rounded-full dark:bg-gray-700">
+          <div className="w-[16rem] md:w-[20rem] bg-gray-200 mt-5 rounded-full dark:bg-gray-700">
             <div className="bg-blue-600 w-[90%] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full">
               {" "}
               45%
