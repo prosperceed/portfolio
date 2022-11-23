@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Skills from "./Skills";
 import me from "../../assets/me.jpg";
-import Projects from "../Projects";
+import SubProject from "./SubProject";
 
 const Home = () => {
   return (
@@ -29,7 +29,7 @@ const Home = () => {
         </motion.div>
       </motion.div>
       <Skills />
-      <Projects />
+      <SubProject />
     </>
   );
 };

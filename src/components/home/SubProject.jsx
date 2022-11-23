@@ -2,7 +2,7 @@ import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FaArrowAltCircleRight } from "react-icons/fa";
-import idaka from "../assets/idaka.png";
+import idaka from "../../assets/idaka.png";
 
 const Projects = () => {
   return (
@@ -73,6 +73,14 @@ const Projects = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="py-3">
+        <Link
+          to="projects"
+          className="py-2  px-2 rounded-md bg-slate-700 shadow-md shadow-black text-white"
+        >
+          See more...
+        </Link>
       </div>
     </div>
   );
