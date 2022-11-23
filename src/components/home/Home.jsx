@@ -7,7 +7,7 @@ import SubProject from "./SubProject";
 const Home = () => {
   return (
     <>
-      <motion.div className="intro flex justify-between py-4">
+      <motion.div className="intro flex-col-reverse flex items-center md:items-start md:flex-row md:flex md:justify-between py-4">
         <div className="intro-text py-2">
           <h2 className="text-bold text-3xl uppercase text-white">
             Prosper Success
@@ -21,7 +21,7 @@ const Home = () => {
           </p>
         </div>
         <motion.div
-          className="intro-img"
+          className="intro-img flex-col-reverse md:flex-row flex items-center md:items-start"
           animate={{ rotate: 0 }}
           transition={{ repeat: 1, repeatDelay: 1 }}
         >
