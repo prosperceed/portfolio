@@ -11,7 +11,7 @@ const Projects = () => {
         Completed Projects
       </h2>
       <div className="grid gap-y-3 md:grid-cols-1">
-        <div className="flex  justify-between w-full max-h-40 bg-slate-700 rounded-md hover:bg-slate-600">
+        <div className="flex flex-col md:justify-between w-full max-h-40 bg-slate-700 rounded-md hover:bg-slate-600">
           <div className="px-2 flex items-center">
             <img
               src={idaka}

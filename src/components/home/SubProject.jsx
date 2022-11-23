@@ -2,11 +2,16 @@ import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FaArrowAltCircleRight } from "react-icons/fa";
+import { motion } from "framer-motion";
 import idaka from "../../assets/idaka.png";
 
 const Projects = () => {
   return (
-    <div className="py-3">
+    <motion.div
+      className="py-3"
+      initial={{ opacity: 0.5, x: -180 }}
+      animate={{ opacity: 1, x: 0, transition: { duration: 1 } }}
+    >
       <h2 className="text-white text-center text-2xl py-4">
         Completed Projects
       </h2>
@@ -82,7 +87,7 @@ const Projects = () => {
           See more...
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
