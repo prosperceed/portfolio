@@ -1,0 +1,19 @@
+.register {
+  height: 100vh;
+}
+.circle-1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(to right, #3163ee, #ada6a6);
+  border-radius: 50%;
+  z-index: -10;
+  top: 18%;
+  left: 55%;
+}
+
+@media screen and (max-width: 600px) {
+  .circle-1 {
+    top: 20%;
+  }
+}
