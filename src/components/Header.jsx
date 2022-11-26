@@ -95,7 +95,7 @@ const Header = () => {
           <AiFillCode className="text-6xl w-14 text-blue-500" />
         </h2>
 
-        <motion.div className="md:hidden ">
+        <motion.div className="md:hidden">
           <div className="cursor-pointer" onClick={() => setOpen(!open)}>
             {!open ? (
               <GiHamburgerMenu className="w-8 text-2xl text-white my-2" />
@@ -107,7 +107,7 @@ const Header = () => {
             className={
               !open
                 ? "hidden"
-                : "visible drop-shadow-md shadow-md shadow-black -ml-[2rem] flex flex-col p-3 bg-slate-500 rounded-md opacity-[0.9]"
+                : "drop-shadow-md shadow-md shadow-black -ml-[2rem] flex flex-col p-3 bg-slate-500 rounded-md opacity-[0.9]"
             }
             animate={!open ? "closed" : "open"}
             variants={variants}

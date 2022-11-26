@@ -11,21 +11,21 @@ const Footer = () => {
   return (
     <div className="flex flex-col items-center py-8 border-t border-slate-700">
       <div className="socials flex gap-x-3">
-        <Link target="_blank" to="https://twitter.com/kucozwa">
+        <a target="_blank" href="https://twitter.com/kucozwa">
           <FaTwitter className="text-2xl text-cyan-400" />
-        </Link>
-        <Link target="_blank" to="https://web.facebook.com/prosper.succx/">
+        </a>
+        <a target="_blank" href="https://web.facebook.com/prosper.succx/">
           <FaFacebookMessenger className="text-2xl text-purple-800" />
-        </Link>
-        <Link
+        </a>
+        <a
           target="_blank"
-          to="https://www.linkedin.com/in/prosper-kucozwa-success-2841b9216/"
+          href="https://www.linkedin.com/in/prosper-kucozwa-success-2841b9216/"
         >
           <FaLinkedin className="text-2xl text-cyan-400" />
-        </Link>
-        <Link target="_blank" to="https://github.com/prosperceed">
+        </a>
+        <a target="_blank" href="https://github.com/prosperceed">
           <FaGithub className="text-2xl" />
-        </Link>
+        </a>
       </div>
       <div>
         <p className="text-[1.2rem] text-white py-2">

@@ -60,6 +60,7 @@ const Contact = () => {
           </div>
           <div className="input-group px-10 my-3">
             <input
+              ref={value}
               type="email"
               className="py-2 w-full px-2 outline-none rounded-md"
               placeholder="Enter Email"
@@ -84,7 +85,7 @@ const Contact = () => {
         {message ? (
           <p
             className={
-              message.error
+              message
                 ? "bg-green-700 py-3 mx-10 transition text-gray-300 text-center  mt-5"
                 : "bg-red-700 py-3 transition-all delay-75 text-gray-300 text-center mt-5"
             }

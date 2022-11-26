@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Skills from "./Skills";
-import me from "../../assets/me.jpg";
+import me from "../../assets/me.png";
 import SubProject from "./SubProject";
 
 const Home = () => {
@@ -21,12 +21,16 @@ const Home = () => {
           </p>
         </div>
         <motion.div
-          className="intro-img flex-col-reverse md:flex-row flex items-center md:items-start"
+          className="intro-img border border-slate-600 rounded-[50%] flex-col-reverse md:flex-row flex items-center md:items-start"
           initial={{ x: 100 }}
           animate={{ x: 0 }}
           transition={{ ease: "easeOut", duration: 2 }}
         >
-          <img src={me} alt="" className="w-[200px] h-[200px] rounded-[50%]" />
+          <img
+            src={me}
+            alt=""
+            className="object-cover z-10 w-[200px] h-[200px] rounded-[50%]"
+          />
         </motion.div>
       </motion.div>
       <Skills />
