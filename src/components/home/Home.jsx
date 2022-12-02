@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { motion } from "framer-motion";
 import Skills from "./Skills";
 import me from "../../assets/me.png";
-import SubProject from "./SubProject";
+const SubProject = React.lazy(() => import("./SubProject"));
 
 const Home = () => {
   return (
@@ -34,7 +34,15 @@ const Home = () => {
         </motion.div>
       </motion.div>
       <Skills />
-      <SubProject />
+      <Suspense
+        fallback={
+          <h1 className="text-2xl text-white text-center font-bold py-4">
+            Loading....
+          </h1>
+        }
+      >
+        <SubProject />
+      </Suspense>
     </>
   );
 };
